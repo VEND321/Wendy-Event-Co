@@ -57,7 +57,7 @@ whatsappForm.addEventListener('submit', (e) => {
   const email = e.target[2].value;
   const phone = e.target[3].value;
   const message = `Hi Embellished! I'm ${name} planning a ${eventType}. ${e.target[4].value} (Contact: ${phone} | ${email})`;
-  window.open(`https://wa.me/1234567890?text=${encodeURIComponent(message)}`, '_blank');
+  window.open(`https://wa.me/2348132729246?text=${encodeURIComponent(message)}`, '_blank');
 });
 
 // Date Picker
