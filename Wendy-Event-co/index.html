@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy Event Co | Luxury Event Design & Planning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+<div class="preloader">
+  <img src="asset/logo.jpg" alt="Wendy Event Co" class="logo">
+  <p class="loading-text">Loading</p>
+</div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="asset/logo.jpg" alt="Wendy Event Co" class="logo">
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="social-icons-mobile">
+                <a href="https://instagram.com/wendyeventco" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/2348132729246" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://instagram.com/wendyeventco" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/2348036149593" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Where Dreams Become Reality</h1>
+            <p>Event Planning & Design for <span class="counter" data-target="700">0</span>+ Clients</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Plan Your Event</a>
+                <a href="#gallery" class="btn btn-secondary">View Gallery</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="tagline">Excellence Is Our Standard</span>
+                    <h2>About Wendy Event Co</h2>
+                    <p>At Wendy Event Co, we transform your vision into breathtaking reality. With a passion for design and flawless execution, we've crafted unforgettable moments for over 700 clients across Lagos.</p>
+                    <p>Founded in 2018, our team of expert planners and designers work tirelessly to ensure every detail of your special occasion is perfect. From weddings to corporate events, we bring your dream event to life.</p>
+                    <a href="#contact" class="btn btn-primary">Get to Know Us</a>
+                </div>
+                <div class="about-image">
+                    <img src="asset/about.jpg" alt="Wendy Event Co team working on event decor">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p class="section-subtitle">Every detail crafted with precision and elegance</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3>Wedding Planning</h3>
+                    <p>Full-service wedding coordination from concept to execution, ensuring your special day is flawless.</p>
+                    <a href="#contact" class="explore-btn">Explore Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <h3>Corporate Events</h3>
+                    <p>Professional event planning for businesses, from product launches to annual galas.</p>
+                    <a href="#contact" class="explore-btn">Explore Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Proposals</h3>
+                    <p>Romantic and unforgettable proposal setups that will create your perfect moment.</p>
+                    <a href="#contact" class="explore-btn">Explore Service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-logos">
+                <img src="asset/logo1.jpg" alt="Featured in Vogue">
+                <img src="asset/logo2.jpg" alt="Featured in Bella Naija">
+                <img src="asset/logo1.jpg" alt="Featured in The Guardian">
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="counter" data-target="700">0</div>
+                    <span>Satisfied Clients</span>
+                </div>
+                <div class="stat-item">
+                    <div class="counter" data-target="50">0</div>
+                    <span>5★ Reviews</span>
+                </div>
+                <div class="stat-item">
+                    <div class="counter" data-target="6">0</div>
+                    <span>Years Experience</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Recent Work</h2>
+                <p class="section-subtitle">Explore our portfolio of unforgettable events</p>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url('asset/sample2.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Luxury Wedding</h3>
+                            <p>Elegant Ballroom Decor</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('asset/sample1.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Corporate Gala</h3>
+                            <p>Sophisticated Design</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('asset/sample3.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Romantic Proposal</h3>
+                            <p>Intimate & Personal</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('asset/sample.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Product Launch</h3>
+                            <p>Modern & Innovative</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('asset/sample2.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Anniversary Party</h3>
+                            <p>Celebratory & Joyful</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="view-more">
+                <a href="#gallery" class="btn btn-secondary">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Plan Your Event</h2>
+                <p class="section-subtitle">Start your journey to the perfect celebration</p>
+            </div>
+            <div class="booking-steps">
+                <div class="step">
+                    <h3>1. Choose Your Date</h3>
+                    <input type="text" id="datepicker" placeholder="Select date">
+                </div>
+                <div class="step">
+                    <h3>2. Estimate Guests</h3>
+                    <input type="range" id="guestSlider" min="20" max="500" value="100">
+                    <span id="guestCount">100</span> guests
+                </div>
+                <div class="step">
+                    <h3>3. Get a Quote</h3>
+                    <button id="calculateBtn" class="btn">Calculate Estimate</button>
+                    <div id="quoteResult"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ready to Begin?</h2>
+                <p class="section-subtitle">Let's create something magical together</p>
+            </div>
+            <form id="whatsappForm">
+                <select id="eventType" required>
+                    <option value="">Select Event Type</option>
+                    <option value="Wedding">Wedding</option>
+                    <option value="Birthday">Birthday</option>
+                    <option value="Corporate">Corporate Event</option>
+                    <option value="Proposal">Proposal</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone" required>
+                <textarea placeholder="Tell us about your vision..."></textarea>
+                <button type="submit" class="btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/2348132729246" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="asset/logo.jpg" alt="Wendy Event Co">
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <p>wendyeventco@gmail.com</p>
+                    <p>+234 813 272 9246</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/wendyeventco"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/wendyeventco"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/2348132729246"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Wendy Event Co. All rights reserved.</p>
+                <div class="vendor-credit">
+                    Designed by <a href="https://vend321.github.io/-Agency-Portfolio/Vend-Agency-Portfolio/" target="_blank">Vend Agency</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
